@@ -8,7 +8,6 @@
     <title>CV</title>
 </head>
 <body>
-    <button class="print-btn" id="downloadButton" title="Download CV"><i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i></button>
     <div class="container">
         <div class="left_Side">
             <div class="profileText">
@@ -114,19 +113,19 @@
             <div class="about skills">
                 <h2 class="informationTitle">Professional skills</h2>
                 <div class="box">
-                    <h4>HTML</h4>
+                    <h4>React</h4>
                     <div class="percent">
                         <div style="width: 95%;"></div>
                     </div>
                 </div>
                 <div class="box">
-                    <h4>CSS</h4>
+                    <h4>Node.js</h4>
                     <div class="percent">
                         <div style="width: 90%;"></div>
                     </div>
                 </div>
                 <div class="box">
-                    <h4>JavaScript</h4>
+                    <h4>Git/GitHub</h4>
                     <div class="percent">
                         <div style="width: 80%;"></div>
                     </div>
@@ -138,9 +137,9 @@
                     </div>
                 </div>
                 <div class="box">
-                    <h4>Figma</h4>
+                    <h4>Linux</h4>
                     <div class="percent">
-                        <div style="width: 90%;"></div>
+                        <div style="width: 80%;"></div>
                     </div>
                 </div>
             </div>
@@ -154,25 +153,6 @@
                 </ul>
             </div>
         </div>
-    </div>
-
-<script>
-    document.getElementById('downloadButton').addEventListener('click', function () {
-        var imageUrl = 'https://iili.io/dFdrtqB.png';
-        
-        fetch(imageUrl)
-            .then(response => response.blob())
-            .then(blob => {
-                var link = document.createElement('a');
-                link.href = URL.createObjectURL(blob);
-                link.download = 'Umayanga_Karunarathna_CV_image.png';
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
-            })
-            .catch(console.error);
-    });
-</script>
-    
+    </div>    
 </body>
 </html>
