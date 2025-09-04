@@ -7,7 +7,7 @@ A clean, modern, and responsive web-based CV template to showcase your personal 
 
 ## 📸 Screenshot
 
-![CodeBoy-WebCV Screenshot](preview/Umayanga_Karunarathna_CV_image.png)
+![CodeBoy-WebCV Screenshot](preview/CodeBoy-WebCV.png)
 ---
 
 ## 🚀 Features
